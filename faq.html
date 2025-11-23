@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FAQ | Master the Language of Innovation</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+    <!-- Navigation Bar -->
+    <nav class="navbar">
+        <div class="container">
+            <a href="course_curriculum.html" class="nav-logo">Python for Beginners</a>
+            <div class="nav-links">
+                <a href="course_curriculum.html">Home</a>
+                <a href="faq.html" class="active">FAQ</a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- FAQ Header -->
+    <section class="overview">
+        <div class="container overview-content">
+            <h2>Frequently Asked Questions ❓</h2>
+            <p>Got questions? We've got answers. Here’s everything you need to know about the course.</p>
+        </div>
+    </section>
+
+    <!-- FAQ Section -->
+    <section class="faq-section">
+        <div class="container faq-container">
+
+            <div class="faq-item">
+                <button class="faq-question">Do I need any prior coding experience?</button>
+                <div class="faq-answer">
+                    <p>Not at all! This course is designed specifically for complete beginners. We start from the very
+                        basics and guide you step-by-step.</p>
+                </div>
+            </div>
+
+            <div class="faq-item">
+                <button class="faq-question">What software do I need to install?</button>
+                <div class="faq-answer">
+                    <p>You will need to install Python and a code editor (IDE) like VS Code or PyCharm. We will dedicate
+                        the first week to helping you set up your environment properly.</p>
+                </div>
+            </div>
+
+            <div class="faq-item">
+                <button class="faq-question">Is there a certificate upon completion?</button>
+                <div class="faq-answer">
+                    <p>Yes! Upon successfully completing the course and the final project, you will receive a
+                        certificate of completion to showcase your new skills.</p>
+                </div>
+            </div>
+
+            <div class="faq-item">
+                <button class="faq-question">How much time should I dedicate each week?</button>
+                <div class="faq-answer">
+                    <p>We recommend setting aside about 3-5 hours per week. This includes watching lessons, practicing
+                        code, and working on mini-projects.</p>
+                </div>
+            </div>
+
+            <div class="faq-item">
+                <button class="faq-question">What if I get stuck on a problem?</button>
+                <div class="faq-answer">
+                    <p>Don't worry! You'll have access to our community forum where you can ask questions, and our
+                        instructors hold weekly office hours to help you out.</p>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2025 Python for Beginners Course. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script>
+        // Simple Accordion Script
+        const faqItems = document.querySelectorAll('.faq-item');
+
+        faqItems.forEach(item => {
+            const question = item.querySelector('.faq-question');
+            question.addEventListener('click', () => {
+                // Close other items
+                faqItems.forEach(otherItem => {
+                    if (otherItem !== item) {
+                        otherItem.classList.remove('active');
+                    }
+                });
+                // Toggle current item
+                item.classList.toggle('active');
+            });
+        });
+    </script>
+
+</body>
+
+</html>

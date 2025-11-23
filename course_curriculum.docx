@@ -1,0 +1,55 @@
+🐍 Learn Python in 4 Weeks!
+A Hands-On Coding Journey for High Schoolers and under graduates
+
+💡 Course Overview
+Ever wondered how your favorite apps, games, or AI tools work? This 4-week Introduction to Python course is your gateway into the world of programming. You’ll start from the very basics and quickly advance to building your own projects — learning to code by doing, not memorizing. By the end, you’ll create your own mini software project using everything you’ve learned — a great addition to your academic portfolio!
+📆 Week 1 – Getting Started with Python
+Theme: From Zero to First Program
+Goal: Understand what Python is, set up your environment, and write your first lines of code.
+•	1. What is Python and why use it? - Learn where this language came from
+•	2. Installing Python and an IDE. - Set up Python and a coding environment
+•	3. Writing your first Python program. - Write and execute your first “Hello, World!”
+•	4. Variables and data types. - Learn to store and manage data using variables
+•	5. Basic input and output. - Use input() and print() to make your programs interactive and communicate with users.
+💡 Mini Project: Create an “About Me” program that introduces you through Python code.
+📆 Week 2 – Controlling the Flow
+Theme: Logic, Loops, and Control
+Goal: Learn to make decisions and repeat tasks efficiently.
+•	1. Conditional statements – Use if, elif, and else to build decision-based logic.
+•	2. Loops – Use for and while loops to repeat tasks automatically.
+•	3. Lists and loops – Combine lists with loops for smart iteration.
+•	4. Using Python libraries/modules – Import and use math, random, and other built-in modules.
+•	5. Functions – Write reusable code blocks and understand parameters and return values.
+🎮 Mini Project: Build a Number Guessing Game using loops and random numbers.
+📆 Week 3 – Data Structures & Error Handling
+Theme: Organize and Protect Data
+Goal: Learn to store, access, and process data efficiently and safely.
+•	1. Lists, tuples, and dictionaries – Store and retrieve multiple values easily.
+•	2. Sets and frozen sets – Understand unique data collections.
+•	3. String manipulation – Work with text using slicing, formatting, and functions.
+•	4. File handling – Read from and write to text files.
+•	5. Exception handling – Prevent program crashes using try, except, and finally.
+📂 Mini Project: Create a Student Grade Tracker that saves data to a file.
+📆 Week 4 – Objects & Final Project
+Theme: Build Your Own Application
+Goal: Apply object-oriented programming (OOP) concepts and combine all prior knowledge into a project.
+•	1. Introduction to OOP – Understand what classes and objects are.
+•	2. Creating classes and objects – Build reusable templates for real-world entities.
+•	3. Inheritance and polymorphism – Learn how to extend and customize behavior.
+•	4. Debugging and testing – Fix errors and improve reliability.
+•	5. Project showcase – Combine all skills into a creative final project.
+🚀 Final Project: Build one of the applications mentioned below
+- Calculator App
+- Quiz Game
+- Library Book Manager
+- Simple Expense Tracker
+🎯 Why Join This Course?
+•	Learn a real programming language used by professionals worldwide.
+•	Strengthen logical thinking, creativity, and problem-solving.
+•	Gain a foundation for Generative AI.
+•	Build projects you can showcase on resumes or college applications.
+•	Get step-by-step guidance — no prior experience needed.
+⚙️ Prerequisites
+• No prior coding knowledge required — beginners welcome!
+• A personal laptop is required for all hands-on lessons.
+• A willingness to learn and explore new ideas.
